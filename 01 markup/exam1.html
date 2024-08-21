@@ -11,17 +11,36 @@
             width: 90vw;
             height: 90vh;
             border-collapse: collapse;
+            background-color: ivory;
         }
         td {
             width: 16%;
             height: 16%;
-            border: 1px solid #000;
+            border: 3px solid #000;
+            color: blue;
             text-align: center;
+            font-weight: bolder;
         }
+
+        .c1 {
+            color: red;
+        }
+
+        .c2 {
+            color: green;
+        }
+
     </style>
 </head>
 <body>   
     <table><!--표 정의-->
+        <colgroup>
+            <col class="c1">
+            <col class="c2">
+            <col class="c2">
+
+            
+        </colgroup>
         <tr>
             <td colspan="2">1농장</td>
             <td colspan="2">2농장</td>
