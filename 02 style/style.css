@@ -1,1 +1,6 @@
-p { color : red ; }
+p { color : red ; 
+    background-color : blue; }
+
+.btxt { color: red; }
+.ctxt { color: blue; }
+.atxt { font-weight: bold;}
