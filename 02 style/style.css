@@ -1,6 +1,6 @@
 p { color : red ; 
-    background-color : blue; }
+    background-color : yellow; }
 
 .btxt { color: red; }
-.ctxt { color: blue; }
+.ctxt { color: green; }
 .atxt { font-weight: bold;}
